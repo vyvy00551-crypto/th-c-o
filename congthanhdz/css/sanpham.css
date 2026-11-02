@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.sapxep {
+    margin-top: 10px;
+}
+.khungsp {
+    border: none;
+    padding: 0;
+}
+
+.danh-muc{
+    border: 1px solid #0dcaf0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+    background: #fff;
+}
+.hop-gia {
+    border: 1px solid #0dcaf0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+    background: #fff;
+}
+.danh-muc {
+    background: #fff;
+}
+
+.dm-tieu-de {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    margin-bottom: 8px;
+}
+
+.dm-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dm-list li a {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+    color: #2b3fb5;
+    text-decoration: none;
+}
+
+.dm-list li a:hover {
+    color: #5a9a3c;
+}
+
+.nhom-sp {
+    margin-top: 16px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #0dcaf0;
+}
+
+.sp {
+    border: 1px solid gray;
+    height: 100%;
+    border-radius: 12px;
+    background-color: burlywood;
+}
+
+.sp img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.sp .gia {
+    color: #e91e8c;
+}
+.khung-bao {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    background: #fff;
+}
+.mua {
+    margin-top: 10%;
+}

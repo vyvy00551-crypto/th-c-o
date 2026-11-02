@@ -1,0 +1,95 @@
+.m1 {
+    background-color: #d120b4d8;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.card-img-top,
+.banner-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.cha img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.fr-0 {
+    position: relative;
+}
+
+.fr-1 {
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    height: 150px;
+    width: 200px;
+    z-index: 5;
+}
+
+.fr-1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.fr-2 {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+
+    height: 250px;
+    width: 320px;
+    z-index: 1;
+}
+
+.fr-2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.gt-banner img {
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.gt-intro p {
+    max-width: 70ch;
+}
+
+.gt-stat {
+    border-left: 4px solid #0dcaf0;
+    padding-left: 1rem;
+}
+
+.gt-stat .so {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.gt-card {
+    transition: box-shadow .2s;
+}
+
+.gt-card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+.gt-video {
+    max-width: 800px;
+}
+
+.gt-video video {
+    border-radius: .5rem;
+    background: #000;
+}
